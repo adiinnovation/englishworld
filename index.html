@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"><title>ENGLISH WORLD — Speak & Win</title><link rel="stylesheet" href="style.css"><script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script></head>
+<body>
+<div id="world"></div>
+<header class="top"><div class="logo">ENGLISH<span>WORLD</span><small>SPEAK & WIN</small></div><div class="topstats"><span>⭐ <b id="xp">0</b> XP</span><span>🪙 <b id="coins">0</b></span><span>🔥 <b id="streak">1</b></span></div><button id="menuBtn" class="iconbtn">☰</button></header>
+<div class="hud"><div class="level"><small>YOUR LEVEL</small><b id="levelName">BEGINNER</b><div class="progress"><i id="levelProgress"></i></div></div><div class="nearby" id="nearby">Explore the city and approach a location</div><div class="controls-help">WASD / ARROWS: MOVE · E: INTERACT</div></div>
+<div class="mobile-controls"><button data-move="forward">▲</button><div><button data-move="left">◀</button><button data-move="back">▼</button><button data-move="right">▶</button></div></div>
+<div class="side-actions"><button id="missionsBtn">📍 Missions</button><button id="mapBtn">🗺 City Map</button><button id="learnBtn">📚 Notebook</button><button id="dashBtn">📊 Progress</button></div>
+<div id="modal" class="modal hidden"><div class="modal-card"><button class="close" id="closeModal">✕</button><div id="modalContent"></div></div></div>
+<div id="toast"></div>
+<script src="missions.js"></script><script src="game.js"></script></body></html>
