@@ -3,8 +3,8 @@
 <body>
 <div id="world"></div>
 <header class="top"><div class="logo">ENGLISH<span>WORLD</span><small>SPEAK & WIN</small></div><div class="topstats"><span>⭐ <b id="xp">0</b> XP</span><span>🪙 <b id="coins">0</b></span><span>🔥 <b id="streak">1</b></span></div><button id="menuBtn" class="iconbtn">☰</button></header>
-<div class="hud"><div class="level"><small>YOUR LEVEL</small><b id="levelName">BEGINNER</b><div class="progress"><i id="levelProgress"></i></div></div><div class="nearby" id="nearby">Explore the city and approach a location</div><div class="controls-help">WASD / ARROWS: MOVE · E: INTERACT</div></div>
-<div class="mobile-controls"><button data-move="forward">▲</button><div><button data-move="left">◀</button><button data-move="back">▼</button><button data-move="right">▶</button></div></div>
+<div class="hud"><div class="level"><small>YOUR LEVEL</small><b id="levelName">BEGINNER</b><div class="progress"><i id="levelProgress"></i></div></div><div class="nearby" id="nearby">Explore the city and approach a location</div><div class="controls-help">MOVE WITH TOUCH CONTROLS · TAP TALK TO INTERACT</div></div>
+<div class="mobile-controls"><button class="move-up" data-move="forward" aria-label="Move forward">▲</button><div><button data-move="left" aria-label="Move left">◀</button><button data-move="back" aria-label="Move backward">▼</button><button data-move="right" aria-label="Move right">▶</button></div></div><button id="interactBtn" class="interact-btn" disabled>💬 TALK</button><button id="fullscreenBtn" class="fullscreen-btn" aria-label="Toggle full screen">⛶</button>
 <div class="side-actions"><button id="missionsBtn">📍 Missions</button><button id="mapBtn">🗺 City Map</button><button id="learnBtn">📚 Notebook</button><button id="dashBtn">📊 Progress</button></div>
 <div id="modal" class="modal hidden"><div class="modal-card"><button class="close" id="closeModal">✕</button><div id="modalContent"></div></div></div>
 <div id="toast"></div>

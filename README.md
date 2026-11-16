@@ -32,3 +32,18 @@ Microphone speech recognition depends on browser support and permissions. Chrome
 
 ## Note
 This is a functional starter game. The 3D avatar, NPCs and city are procedurally generated Three.js objects rather than imported high-detail character assets. The answer checker accepts several model answers and uses a simple word-overlap similarity score; it is practice feedback, not a formal pronunciation or fluency assessment.
+
+
+## Mobile controls (updated)
+- Use the large on-screen arrow pad to walk around the city.
+- Walk close to a building or character. The yellow **TALK** button becomes active.
+- Tap **TALK** to open the speaking mission. No keyboard is required.
+- Tap the ⛶ button to request full-screen mode (browser support varies).
+- On Android, open the published HTTPS site in Chrome and allow microphone access for speaking practice.
+
+## Three learning levels
+- **Beginner:** missions 1–5 — greetings, introductions and simple everyday sentences.
+- **Intermediate:** missions 6–15 — shopping, travel, hotel, hospital and workplace conversations.
+- **Advanced:** missions 16–20 — presentations, negotiation, team discussions and handling difficult situations.
+
+The game uses browser speech recognition where supported. Typing is always available as a fallback. The answer checker is a simple text similarity check, not a certified pronunciation assessment.
